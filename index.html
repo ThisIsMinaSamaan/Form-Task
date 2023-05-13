@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data</title>
+</head>
+<body style="background-color: #2f4f4f;">
+
+    <form action="" method="post">
+
+        <fieldset style="background-color: #2e6e6e;">
+            <legend style="background-color: #5f9ea0;">Personal Data</legend>
+            <br> <br>
+            
+            <fieldset style="background-color: #5f9ea0;">
+
+                <legend style="background-color: #3e858b;padding-top: 2%;padding-bottom: 2%;">Mina Samaan</legend><br><br>
+
+                <label for="fName">First Name:</label>
+                <input type="text" name="fName" id="fName" placeholder="Enter your first name"><br>
+
+                <label for="lName">First Name:</label>
+                <input type="text" name="lName" id="lName" placeholder="Enter your last name">
+            </fieldset><br>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="phone">Your Phone:</label></td>
+                        <td><input type="tel" name="phone" id="phone"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" name="password" id="password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="repassword">re-Password:</label></td>
+                        <td><input type="repassword" name="repassword" id="repassword"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br><br>
+
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label><br>
+            
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label><br><br>
+
+            <input type="checkbox" name="stud" id="stud" value="stud">
+            <label for="stud">Student</label><br>
+
+            <input type="checkbox" name="grad" id="grad" value="grad">
+            <label for="grad">Graduated</label><br><br>
+
+            <label for="uni">University:</label>
+            <select name="uni" id="uni">
+                <option value="AUC">AUC</option>
+                <option value="AAST">AAST</option>
+                <option value="GUC">GUC</option>
+                <option value="MSA">MSA</option>
+            </select><br><br>
+
+            <button style="background-color: #343434;border-radius: 15%; color: beige; height: 30px;width: 50px;" type="submit">Submit</button>
+
+
+        </fieldset>
+        
+    </form>
+    
+    
+</body>
+</html>
